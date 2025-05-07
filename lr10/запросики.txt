@@ -1,0 +1,25 @@
+post 
+http://localhost:8000/login 
+{
+  "username": "admin",
+  "password": "adminpassword"
+}
+
+получаю условно токен
+
+
+гет:
+http://localhost:8000/users
+
+в хедер
+
+Authorization
+
+Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM0NDY5NTU2LCJpYXQiOjE3MzQ0Njc3NTZ9.WUrpHhGQray97oAJMh9nriLvNguEbWp81-87LIffbZo
+
+
+{
+  "name": "Стас",
+  "email": "стааас@mail.com",
+  "age": 11
+}
